@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galeria dos Maiores times</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+  type="module"
+  src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+</script>
+  </head>
+  <body>
+    <main class="experience" data-gallery>
+      <header class="site-header">
+        <a class="brand" href="#inicio" aria-label="Início">SEU NOME</a>
+
+        <nav aria-label="Navegação principal">
+          <a href="#projetos">Projetos</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#contato">Contato</a>
+        </nav>
+      </header>
+
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <p class="eyebrow">PORTFÓLIO CRIATIVO</p>
+        <h1 id="hero-title">Projetos em movimento.</h1>
+        <p class="intro">Role para explorar a seleção.</p>
+      </section>
+
+      <section class="gallery" id="projetos" aria-label="Projetos selecionados">
+        <div class="gallery__ambient" aria-hidden="true">
+          <span class="ambient-object ambient-object--one"></span>
+          <span class="ambient-object ambient-object--two"></span>
+        </div>
+
+        <div class="gallery__viewport">
+          <!-- ESTÁDIOS: lado esquerdo -->
+          <div
+            class="wheel wheel--left"
+            data-wheel="left"
+            aria-label="Roda esquerda de estádios"
+          >
+            <article
+              class="project-card project-card--stadium"
+              data-team="vasco-da-gama"
+              data-position="01"
+            >
+              <img
+                src="midias/sao-januario-vasco.png"
+                alt="Estádio São Januário, do Vasco da Gama"
+              />
+              <p>01 — São Januário</p>
+            </article>
+
+            <article
+              class="project-card project-card--stadium"
+              data-team="liverpool"
+              data-position="02"
+            >
+              <img
+                src="midias/anfield-liverpool.jpg"
+                alt="Estádio Anfield, do Liverpool"
+              />
+              <p>02 — Anfield</p>
+            </article>
+
+            <article
+              class="project-card project-card--stadium"
+              data-team="barcelona"
+              data-position="03"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1524111105178-82faddea8d91?auto=format&fit=crop&w=1200&q=85"
+                alt="Estádio Camp Nou, do Barcelona"
+              />
+              <p>03 — Camp Nou</p>
+            </article>
+
+            <article
+              class="project-card project-card--stadium"
+              data-team="real-madrid"
+              data-position="04"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1200&q=85"
+                alt="Estádio Santiago Bernabéu, do Real Madrid"
+              />
+              <p>04 — Santiago Bernabéu</p>
+            </article>
+
+            <article
+              class="project-card project-card--stadium"
+              data-team="chelsea"
+              data-position="05"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1553778263-73a83bab9b0c?auto=format&fit=crop&w=1200&q=85"
+                alt="Estádio Stamford Bridge, do Chelsea"
+              />
+              <p>05 — Stamford Bridge</p>
+            </article>
+
+            <article
+              class="project-card project-card--stadium"
+              data-team="corinthians"
+              data-position="06"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&w=1200&q=85"
+                alt="Neo Química Arena, do Corinthians"
+              />
+              <p>06 — Neo Química Arena</p>
+            </article>
+
+            <article
+              class="project-card project-card--stadium"
+              data-team="inter-de-milao"
+              data-position="07"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?auto=format&fit=crop&w=1200&q=85"
+                alt="Estádio San Siro, do Inter de Milão"
+              />
+              <p>07 — San Siro</p>
+            </article>
+
+            <article
+              class="project-card project-card--stadium"
+              data-team="bayern-de-munique"
+              data-position="08"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1518605368461-9294df1bc99a?auto=format&fit=crop&w=1200&q=85"
+                alt="Allianz Arena, do Bayern de Munique"
+              />
+              <p>08 — Allianz Arena</p>
+            </article>
+
+            <article
+              class="project-card project-card--stadium"
+              data-team="borussia-dortmund"
+              data-position="09"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1566577739112-5180d4bf9390?auto=format&fit=crop&w=1200&q=85"
+                alt="Signal Iduna Park, do Borussia Dortmund"
+              />
+              <p>09 — Signal Iduna Park</p>
+            </article>
+
+            <article
+              class="project-card project-card--stadium"
+              data-team="psg"
+              data-position="10"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1551958219-acbc608c6377?auto=format&fit=crop&w=1200&q=85"
+                alt="Parc des Princes, do Paris Saint-Germain"
+              />
+              <p>10 — Parc des Princes</p>
+            </article>
+          </div>
+
+          <!-- TEXTO CENTRAL -->
+          <div class="gallery__focus" aria-live="polite">
+            <div class="focus-glow" aria-hidden="true"></div>
+
+            <p class="focus-index">
+              CLUBE Nº <span data-active-index>01</span>
+            </p>
+
+            <h2 data-active-title>Vasco da Gama</h2>
+            <p data-active-stadium>São Januário</p>
+            <p data-active-founded>Fundado em 1898</p>
+
+            <a href="#" data-active-link>Conhecer clube</a>
+          </div>
+
+          <!-- ESCUDOS: lado direito -->
+          <div
+            class="wheel wheel--right"
+            data-wheel="right"
+            aria-label="Roda direita de escudos"
+          >
+            <article
+              class="project-card project-card--badge"
+              data-team="vasco-da-gama"
+              data-position="01"
+            >
+             <model-viewer
+              class="team-model"
+              src="midias/vasco_da_gama_emblem.glb"
+              alt="Escudo 3D do Vasco da Gama"
+              rotation-per-second="22deg"
+              camera-controls
+              disable-zoom
+              shadow-intensity="1"
+              exposure="1.2">
+            </model-viewer>
+              <p>01 — Vasco da Gama</p>
+            </article>
+
+            <article
+              class="project-card project-card--badge"
+              data-team="liverpool"
+              data-position="02"
+            >
+              <model-viewer
+               class="team-model"
+               src="midias/liverpool_fc_crest.glb"
+               alt="Escudo 3D do Liverpool"
+               rotation-per-second="22deg"
+               camera-controls
+               disable-zoom>
+             </model-viewer>
+
+              <p>02 — Liverpool</p>
+            </article>
+
+            <article
+              class="project-card project-card--badge"
+              data-team="barcelona"
+              data-position="03"
+            >
+              <span class="badge badge--barcelona" aria-hidden="true">FCB</span>
+              <p>03 — Barcelona</p>
+            </article>
+
+            <article
+              class="project-card project-card--badge"
+              data-team="real-madrid"
+              data-position="04"
+            >
+              <span class="badge badge--madrid" aria-hidden="true">RM</span>
+              <p>04 — Real Madrid</p>
+            </article>
+
+            <article
+              class="project-card project-card--badge"
+              data-team="chelsea"
+              data-position="05"
+            >
+              <span class="badge badge--chelsea" aria-hidden="true">CFC</span>
+              <p>05 — Chelsea</p>
+            </article>
+
+            <article
+              class="project-card project-card--badge"
+              data-team="corinthians"
+              data-position="06"
+            >
+              <span class="badge badge--corinthians" aria-hidden="true">SCCP</span>
+              <p>06 — Corinthians</p>
+            </article>
+
+            <article
+              class="project-card project-card--badge"
+              data-team="inter-de-milao"
+              data-position="07"
+            >
+              <span class="badge badge--inter" aria-hidden="true">IM</span>
+              <p>07 — Inter de Milão</p>
+            </article>
+
+            <article
+              class="project-card project-card--badge"
+              data-team="bayern-de-munique"
+              data-position="08"
+            >
+              <span class="badge badge--bayern" aria-hidden="true">FCB</span>
+              <p>08 — Bayern de Munique</p>
+            </article>
+
+            <article
+              class="project-card project-card--badge"
+              data-team="borussia-dortmund"
+              data-position="09"
+            >
+              <span class="badge badge--dortmund" aria-hidden="true">BVB</span>
+              <p>09 — Borussia Dortmund</p>
+            </article>
+
+            <article
+              class="project-card project-card--badge"
+              data-team="psg"
+              data-position="10"
+            >
+              <span class="badge badge--psg" aria-hidden="true">PSG</span>
+              <p>10 — Paris Saint-Germain</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="sobre">
+        <p>Uma base para uma galeria com profundidade, rotação e brilho.</p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
