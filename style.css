@@ -330,6 +330,7 @@ h1 {
   width: min(270px, 45vw);
   text-align: center;
   pointer-events: none;
+  
 }
 
 .gallery__focus h2 {

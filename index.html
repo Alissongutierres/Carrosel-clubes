@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Galeria dos Maiores times</title>
+    <title>Galeria dos Maiores times do mundo</title>
     <link rel="stylesheet" href="style.css" />
     <script
   type="module"
@@ -13,7 +13,7 @@
   <body>
     <main class="experience" data-gallery>
       <header class="site-header">
-        <a class="brand" href="#inicio" aria-label="Início">SEU NOME</a>
+        <a class="brand" href="#inicio" aria-label="Início">ALISSON</a>
 
         <nav aria-label="Navegação principal">
           <a href="#projetos">Projetos</a>
@@ -71,7 +71,7 @@
               data-position="03"
             >
               <img
-                src="https://images.unsplash.com/photo-1524111105178-82faddea8d91?auto=format&fit=crop&w=1200&q=85"
+                src="midias/estadio do barcelonajpg.jpg"
                 alt="Estádio Camp Nou, do Barcelona"
               />
               <p>03 — Camp Nou</p>
@@ -83,7 +83,7 @@
               data-position="04"
             >
               <img
-                src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1200&q=85"
+                src="midias/661606888.jpg"
                 alt="Estádio Santiago Bernabéu, do Real Madrid"
               />
               <p>04 — Santiago Bernabéu</p>
@@ -95,7 +95,7 @@
               data-position="05"
             >
               <img
-                src="https://images.unsplash.com/photo-1553778263-73a83bab9b0c?auto=format&fit=crop&w=1200&q=85"
+                src="midias/estadio chelsea.avif"
                 alt="Estádio Stamford Bridge, do Chelsea"
               />
               <p>05 — Stamford Bridge</p>
@@ -210,7 +210,7 @@
                class="team-model"
                src="midias/liverpool_fc_crest.glb"
                alt="Escudo 3D do Liverpool"
-               rotation-per-second="22deg"
+               rotation-per-second="0deg"
                camera-controls
                disable-zoom>
              </model-viewer>
@@ -223,8 +223,15 @@
               data-team="barcelona"
               data-position="03"
             >
-              <span class="badge badge--barcelona" aria-hidden="true">FCB</span>
-              <p>03 — Barcelona</p>
+              <model-viewer
+               class="team-model"
+               src="midias/fc_barcelona_crest.glb"
+               alt="Escudo 3D do barcelona"
+               rotation-per-second="0deg"
+               camera-controls
+               disable-zoom>
+             </model-viewer>
+             <p>03 - Barcelona</p>
             </article>
 
             <article
@@ -232,8 +239,15 @@
               data-team="real-madrid"
               data-position="04"
             >
-              <span class="badge badge--madrid" aria-hidden="true">RM</span>
-              <p>04 — Real Madrid</p>
+             <model-viewer
+               class="team-model"
+               src="midias/real_madrid_logo.glb"
+               alt="Escudo 3D do Real madrid"
+               rotation-per-second="0deg"
+               camera-controls
+               disable-zoom>
+             </model-viewer> 
+             <p>04 - Real madrid</p>
             </article>
 
             <article
@@ -241,7 +255,14 @@
               data-team="chelsea"
               data-position="05"
             >
-              <span class="badge badge--chelsea" aria-hidden="true">CFC</span>
+              <model-viewer
+               class="team-model"
+               src="midias/chelsea_fc_logo.glb"
+               alt="Escudo 3D do chelsea"
+               rotation-per-second="0deg"
+               camera-controls
+               disable-zoom>
+             </model-viewer> 
               <p>05 — Chelsea</p>
             </article>
 
